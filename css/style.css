@@ -1,0 +1,261 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f3f3f0;
+}
+
+.block-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.margin {
+    margin: 0px 60px;
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.welcome__header {
+    background-color: #ffff;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+
+    padding: 20px 25px;
+}
+
+.welcome__header-main__logo p {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.welcome__header-contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 40px;
+}
+
+.welcome__header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 40px;
+}
+
+.welcome__header-contacts__img {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 5px;
+}
+
+.welcome__header-contacts__img-inner img {
+    width: 20px;
+    height: 20px;
+}
+
+.welcome__header-contacts__phone p {
+    font-weight: bold;
+}
+
+/* Main */
+
+.main {
+    margin-top: 20px;
+    width: 100%;
+    height: 550px;
+    
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+.main__left {
+    border-radius: 10px;
+
+    width: calc(56% - 80px);
+    height: inherit;
+    background-color: #ffff;
+    position: relative;
+    float: left;
+
+    box-sizing: border-box;
+    padding: 75px 45px;
+
+    /* text-align: center; */
+}
+
+.main__left h1 {
+    font-size: 48px;
+    font-weight: bold;
+
+    margin-bottom: 55px;
+}
+
+.main__right {
+    border-radius: 10px;
+
+    width: 100%;
+    height: inherit;
+    background-color: #ffff;
+
+}
+
+.main__right img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 10px;
+}
+
+.main__left-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 40px;
+}
+
+.main__left-info__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 5px;
+}
+
+.main__left-info__inner-text p {
+    font-size: 18px;
+}
+
+/* feb400 */
+.main__left-info__inner-image img {
+    width: 35px;
+    height: 35px;
+}
+
+.main__left-contacts {
+    background-color:#f3f3f0;
+    padding: 30px 15px;
+    margin-top: 75px;
+
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.main__left-contacts h3 {
+    font-weight: bold;
+}
+
+.main__left-contacts__inputs {
+    margin-top: 15px;
+}
+
+.main__left-contacts__inputs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.main__left-contacts__inputs-text input {
+    /* width: 180px; */
+    height: 40px;
+    padding: 0px 15px;
+    box-sizing: border-box;
+
+    outline: none;
+    box-shadow: none;
+    border: none;
+
+    border-radius: 10px;
+}
+
+.main__left-contacts__inputs-submit input {
+    
+    /* width: 160px; */
+    height: 40px;
+    outline: none;
+    box-shadow: none;
+    border: none;
+
+    background-color: #feb400;
+
+    border-radius: 10px;
+}
+
+/* Projects */
+
+.projects {
+    margin-top: 20px;
+
+    background-color: #ffff;
+    border-radius: 10px;
+
+    padding: 75px 45px;
+    box-sizing: border-box;
+}
+
+
+.projects__inner {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 10px;
+}
+
+.projects__inner-box {
+    background-color: #f3f3f0;
+    max-width: 500px;
+    border-radius: 10px;
+
+    flex: 1;
+}
+
+.projects__inner-box-image {
+    width: inherit;
+    height: 350px;
+}
+
+.projects__inner-box-image img {
+    object-position: center; 
+    object-fit: cover;
+
+    height: 100%;
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+.projects__inner-box-text {
+    padding: 10px 20px;
+}
+
+.projects__inner-box-text__header {
+    padding: 15px 0;
+}
+
+.projects__inner-box-text__header h3 {
+    font-weight: bold;
+}
+
+/* Documents */
+
+.documents {
+    margin-top: 20px;
+    padding: 75px 45px;
+    
+    height: 550px;
+
+    border-radius: 10px;
+
+    background-color: #ffff;
+
+}
