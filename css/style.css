@@ -207,7 +207,6 @@ body {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     grid-gap: 10px;
 }
 
@@ -246,16 +245,62 @@ body {
     font-weight: bold;
 }
 
+.projects__inner-box-text__text p {
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
 /* Documents */
 
 .documents {
     margin-top: 20px;
+
+    background-color: #ffff;
+    border-radius: 10px;
+
+    padding: 75px 45px;
+    box-sizing: border-box;
+}
+
+
+.documents__inner {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 10px;
+}
+
+.documents__inner-box {
+    max-width: 500px;
+    border-radius: 10px;
+
+    flex: 1;
+}
+
+.documents__inner-box-image {
+    width: inherit;
+    height: 350px;
+}
+
+.documents__inner-box-image img {
+    object-position: center;
+    object-fit: contain;
+
+    height: 100%;
+    width: 100%;
+
+    border-radius: 10px;
+}
+
+/* About */
+
+.about {
+    margin-top: 20px;
     padding: 75px 45px;
     
     height: 550px;
-
+    
     border-radius: 10px;
-
+    
     background-color: #ffff;
-
 }
