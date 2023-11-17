@@ -284,7 +284,8 @@ body {
 }
 
 .documents__slide-image__content {
-    row-gap: 5px; 
+    /* row-gap: 5px;  */
+    /* border: 2px solid; */
 }
 
 .documents__card-content {
@@ -309,7 +310,7 @@ body {
 }
 
 .documents__slide-image {
-    width: 400px;
+    /* width: 400px; */
     height: 550px;
 }
 

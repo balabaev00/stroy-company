@@ -14,7 +14,7 @@ new Swiper('.documents__slide-content', {
     centeredSlides: 'true',
 
     fade: 'true',
-    grapCoursor: 'true',
+    grabCursor: 'true',
 
     // Стартовый слайд
     initialSlide: 0,
