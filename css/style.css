@@ -117,11 +117,9 @@ p {
 
 .main__right {
     border-radius: 10px;
-
     width: 100%;
-    height: inherit;
+    height: 100%;
     background-color: #ffff;
-
 }
 
 .main__right img {
@@ -500,4 +498,12 @@ footer {
     .swiper-navBtn {
         display: none !important;
     }
+}
+
+@media screen and (max-width: 1317px) {
+    .main__left h1 {
+            font-size: 36px;
+    
+            margin-bottom: 30px;
+        }
 }

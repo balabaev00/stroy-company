@@ -17,7 +17,7 @@ new Swiper('.documents__slide-content', {
     grabCursor: 'true',
 
     // Стартовый слайд
-    initialSlide: 0,
+    initialSlide: 1,
 
     // Бесконечный прокрут
     loop: true,
