@@ -761,8 +761,9 @@ footer {
         padding: 25px 20px;
     }
 
-    .about__header {
-        /* margin: 0 auto; */
+    .about__header-title {
+        width: 100%;
+        text-align: center;
     }
 
     .main__left {
