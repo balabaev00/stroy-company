@@ -252,6 +252,7 @@ p {
 }
 
 .projects__inner-box-text__header {
+    text-align: center;
     padding: 15px 0;
 }
 
@@ -569,6 +570,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .about__item {
+        height: 300px;
+    }
+}
+
 @media screen and (max-width: 1051px) {
     .about__item-title h4 {
         font-size: 16px;
@@ -702,6 +709,12 @@ footer {
     }
 }
 
+@media screen and (max-width:601px) {
+    .about__item {
+        height: 350px;
+    }
+}
+
 @media screen and (max-width:550px) {
     .block-title {
         font-size: 18px;
@@ -728,9 +741,7 @@ footer {
     .footer__address {
         display: none;
     }
-}
 
-@media screen and (max-width:550px) {
     .documents {
         padding: 25px 20px;
     }

@@ -1,4 +1,16 @@
-console.log('Im here')
+$(function () {
+
+    $('.projects__inner-box__images').slick({
+        infinite: true,
+        arrows: false,
+        dots: false,
+        autoplay: 1500,
+    });
+
+
+});
+
+
 /**Инициализируем свайпер*/
 new Swiper('.documents__slide-content', {
     // Автоматическая высота
